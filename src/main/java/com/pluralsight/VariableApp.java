@@ -4,11 +4,17 @@ public class VariableApp {
     public static void main(String[] args) {
 
         //Step #1
-        String favoriteColor = "Green";
+        String favoriteColor = "green";
         int yearStarter = 2026;
         char middleInitial = 'J';
         boolean pets = false;
         String niceMessage = "I hope you have a great day!";
+
+        System.out.println("My favorite color is " + favoriteColor);
+        System.out.println("I started Year Up United in " + yearStarter);
+        System.out.println("My middle initial is " + middleInitial);
+        System.out.println("Do I have pets? " + pets);
+        System.out.println(niceMessage + "\n");
 
         //Step #2
         int numDaysInWeek = 7;
