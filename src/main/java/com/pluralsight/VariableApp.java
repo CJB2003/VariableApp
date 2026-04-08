@@ -11,6 +11,14 @@ public class VariableApp {
         String niceMessage = "I hope you have a great day!";
 
         //Step #2
+        int numDaysInWeek = 7;
+        double coffeePrice = 4.99;
+        char favoriteLetter = 'C';
+        boolean rainOrNot = false;
 
+        System.out.println("The number of days in a week is " + numDaysInWeek);
+        System.out.println("The price of coffee is $ " + coffeePrice);
+        System.out.println("My favorite letter is " + favoriteLetter);
+        System.out.println("Is it raining today? " + rainOrNot);
     }
 }
